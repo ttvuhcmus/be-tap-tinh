@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Be Tap Tinh</h2>
+
+    <form id="form">
+      <div class="container">
+        <div class="item">So thu nhat:</div>
+        <div class="item">
+          <input type="text" class="input-field first" />
+        </div>
+        <div class="item">
+          <input
+            type="radio"
+            id="plus"
+            class="operator"
+            name="operator"
+            value="plus"
+          />
+          <label for="plus">Cong</label>
+
+          <input
+            type="radio"
+            id="minus"
+            class="operator"
+            name="operator"
+            value="minus"
+          />
+          <label for="minus">Tru</label>
+        </div>
+
+        <div class="item">So thu hai</div>
+        <div class="item">
+          <input type="text" class="input-field second" />
+        </div>
+        <div class="item">
+          <input
+            type="radio"
+            id="multi"
+            class="operator"
+            name="operator"
+            value="multi"
+          />
+          <label for="multi">Nhan</label>
+
+          <input
+            type="radio"
+            id="divide"
+            class="operator"
+            name="operator"
+            value="divide"
+          />
+          <label for="divide">Chia</label>
+        </div>
+
+        <div class="item">Ket qua</div>
+        <div class="item">
+          <input type="text" class="input-field third" />
+        </div>
+        <div class="item">
+          <button type="submit">Tinh</button>
+        </div>
+        <div class="item">Thong bao</div>
+
+        <div class="item result"></div>
+      </div>
+    </form>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
